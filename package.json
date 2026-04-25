@@ -1,0 +1,37 @@
+{
+  "name": "tuid",
+  "version": "2.1.1",
+  "description": "Tiny, time-linked unique IDs — 16 chars, base62, masked time+seq, zero dependencies.",
+  
+  "keywords": [
+    "uid",
+    "unique-id",
+    "time-based",
+    "id-generator",
+    "nanoid",
+    "uuid-alternative",
+    "base62",
+    "sortable-id",
+    "lightweight"
+  ],
+  "author": "Raza Raheem <razaraheem021@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "module": "index.mjs",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js",
+      "default": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.mjs"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "sideEffects": false,
+  "dependencies": {}
+}
